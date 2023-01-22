@@ -1,0 +1,19 @@
+format: "1"
+packages:
+  -
+    name: "mathml"
+    implementations:
+      -
+        version: "0.0.1"
+        source:
+          type: "tar_gzip"
+          url: "https://github.com/takemar/SATySFi-MathML/archive/1234c2f62a877e0ffacb04333df2cb0987777971.tar.gz"
+          checksum: "d0169612d86ae802acac93363db0cc8d"
+        language: "^0.1.0"
+        dependencies:
+          -
+            name: "base"
+            requirement: "^1.4.0"
+          -
+            name: "stdlib"
+            requirement: "^0.1.0"
